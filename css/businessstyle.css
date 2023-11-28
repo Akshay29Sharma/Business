@@ -1,0 +1,378 @@
+.main_1 .text h1 {
+    position: relative;
+    margin-left: 70px;
+}
+.sandeep{
+    justify-content: flex-end;
+}
+.main_1 .text h1:before {
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    background-color: green;
+    left: -70px;
+    top: 22px;
+}
+
+.main_1 .text h1:after {
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    background-color: green;
+    left: 43px;
+    top: 22px;
+}
+
+/*(our_new_services)*/
+.our_new_services .text h1 {
+    position: relative;
+    margin-left: 70px;
+}
+
+.our_new_services .text h1:before {
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    background-color: green;
+    left: 522px;
+    top: 22px;
+}
+
+.our_new_services .text h1:after {
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    background-color: green;
+    top: 22px;
+}
+
+.our_new_services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background: url(../images/service_bg.jpg)rgb(0 0 0 / 77%);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/*(our_new_services end)*/
+
+
+
+.container .date {
+    height: 79px;
+    width: 70px;
+    border: 10px solid whitesmoke;
+    background-color: green;
+    display: inline-block;
+    margin-top: -38px;
+}
+
+.borderr {
+    border: 1px solid blue;
+}
+
+.container table td {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-collapse: collapse;
+}
+
+.containerfluid .bg {
+    background-color: white
+}
+
+.containerfluid a {
+    text-decoration: none;
+}
+
+/*(some milestones)*/
+
+.SOME_MILESTONES {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background: url(../images/counter_img.jpg)rgb(0 0 0 / 77%);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.icons {
+    font-size: 24px;
+    padding: 12px 15px;
+    border: 1px solid white;
+}
+
+/*(some milestones end)*/
+
+
+/*(AFFRODABLE PRICE PLANS)*/
+.container .iconss {
+    box-shadow: 0px 0px 7px #e7dbdb;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+/*(AFFRODABLE PRICE PLANS END)*/
+
+
+/* (slider part)
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .demo .carousel-inner img{
+        position: relative;
+       
+    }
+   
+.slider_part{
+    position: relative;
+}
+.slider_part .navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.logo
+{
+    height: 100px;
+    width: 30%;
+}
+.logo img
+{    
+    display: inline-block;
+}
+.logo a{
+    text-decoration: none;
+}
+ .navbar .navbox
+{
+    float: right;
+    height: 40px;
+    width: 62%;
+}
+ .nav_button a
+ {
+    text-decoration: none;
+    padding:7px 20px;
+    color:black;
+    font-size: 17px;}
+    .nav_button a:hover 
+    {
+    background-color: #00d999;
+    color:white;
+}
+    .content{
+        z-index: 999;
+        top: 370px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     }*/
+/* (slider part end)*/
+.container h5 {
+    margin-top: -8px;
+    float: right;
+}
+
+
+/*(progress bar)*/
+.progress_bar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background: url(../images/progrees_bg.jpg)rgb(0 0 0 / 77%);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.progress_bar .row {
+    align-items: center;
+}
+
+/* (gallery nav bar)*/
+.navv_button a {
+
+    text-decoration: none;
+    padding: 7px 34px;
+    color: black;
+    font-size: 17px;
+}
+
+.navv_button a:hover {
+    background-color: rgb(56, 178, 56);
+    color: white;
+}
+
+.special_momment .navv_button {
+    display: inline-block;
+    border: 2px solid green;
+    padding: 6px;
+
+}
+
+/* (gallery nav bar end)*/
+
+.lconss {
+    margin-top: -29px;
+}
+
+.card .card-body {
+    box-shadow: 0px 0px 7px #e7dbdb;
+}
+
+.card-body ul {
+    text-align: left;
+}
+
+.business_blog {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background: url(../images/service_bg.jpg)rgb(0 0 0 / 77%);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+/*(NEWSSLETTER)*/
+.newssletterr {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background: url(../images/newslatter_img.jpg)rgb(0 0 0 / 77%);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/*(NEWSSLETTER end)*/
+.footer {
+    background-color: black;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.paragraph a {
+    text-decoration: none;
+}
+
+.paragraph .fontawesome_icon:before {
+    content: "";
+    width: 65px;
+    height: 3px;
+    position: absolute;
+    background-color: green;
+    left: -80px;
+    top: 22px;
+}
+
+.bar {
+    width: 40%;
+    float: right;
+}
+
+.button {
+    float: right;
+}
+
+.newssletterr a {
+    color: black;
+    font-size: 26px;
+    width: 50%;
+    text-decoration: none;
+}
+
+.navbarr {
+    position: relative;
+    background-position: center;
+    background-image: url(../images/newslatter_img.jpg);
+    background-size: cover;
+}
+
+.paragraph a ul li {
+    padding: 0 0 4px 23px;
+    background: url(../images/arrow.png);
+}
+
+.dateee_priceplan {
+    box-shadow: 0px 15px 10px -15px #e7dbdb;
+    margin-top: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 121px;
+    height: 71px;
+    border: 1px solid white;
+}
+
+/* (slider part)*/
+.d-md-block {
+    top: 400px;
+}
+
+.content {
+    z-index: 999;
+    top: 630px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider_part .navbar {
+    padding-top: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.logo a{
+    text-decoration: none;
+}
+.nav_button a
+{
+   text-decoration: none;
+   padding:7px 20px;
+   color:black;
+   font-size: 17px;
+}
+  /* .nav_button a:hover 
+   {
+   background-color: #00d999;
+   color:white;
+}*/
